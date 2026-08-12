@@ -1,45 +1,127 @@
 * {
     box-sizing: border-box;
-}
-.contenedor {
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas: 'cabecera cabecera'
-                        'menu menu'
-                        'lateral contenido'
-                        'footer footer';
-    grid-template-rows: auto auto 1fr auto;
-    grid-template-columns: 25% 80%;                   
-    background-color: antiquewhite;
-    border: 1px solid black;
-}
-
-.bloque{
-
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    text-shadow: 3px 3px 6px gray;;
+}
+:root {
+  --color-letras-header: #ffffff; 
+}
+
+body {
+  background-color: #fe91ec;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
 }
 .header {
-    grid-area: cabecera;
-    background-color: blueviolet;
-}
-.navbar {
-    grid-area: menu;
-    background-color: rgb(146, 134, 225);
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 100%;
 }
 
-.lateral {
-    grid-area: lateral;
-    background-color: rgb(101, 114, 90);
+.titulo-principal {
+  font-size: 42px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
-.main {
-    grid-area: contenido;
-    background-color: rgb(218, 252, 191);
+
+.subtitulo {
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 28px;
+  color: #3e0244;
 }
-.footer {
-    grid-area: footer;
-    background-color: rgb(43, 183, 226);
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.menu-link {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 8px 14px;
+  color: var(--color-letras-header);
+  background-color: #74038e;
+  transition: background-color 0.3s ease;
+}
+.menu-link:hover {
+  background-color: #c830f6;
+}
+
+/* MATRIZ DE 3 COLUMNAS (ESCRITORIO) */
+.contenedor {
+  display: grid;
+  grid-template-areas: 'imagen caja1 caja2'
+                        'imagen caja3 caja4'
+                        'formulario caja7 caja8'
+                        'caja9 caja9 caja9';
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 4fr 3fr 3fr;                   
+  gap: 15px;
+}
+.caja:hover {
+  transform: translateY(-5px);
+  /*box-shadow: 0 0 15px rgba(0,0,0,0.1-0.3);*/
+}
+.caja {
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: #1e293b;
+  
+}
+
+
+.caja-1 {
+  grid-area: imagen;
+}
+.caja-2 {
+  grid-area: caja1;
+}
+.caja-3 {
+  grid-area: caja2;
+}
+.caja-4 {
+  grid-area: caja3;
+}
+.caja-5 {
+  grid-area: caja4;
+}
+.caja-6 {
+  grid-area: formulario;
+}
+.caja-7 {
+  grid-area: caja7;
+}
+.caja-8 {
+  grid-area: caja8;
+}
+.caja-9 {
+  grid-area: caja9;
+  
+}
+
+.body-imagen {
+  padding: 10px;
+  max-width: 100%;
+  overflow: visible;
+}
+
+.body-imagen img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  margin: 0 auto;
+  object-fit: contain;
 }

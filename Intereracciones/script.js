@@ -1,0 +1,2 @@
+/* Aqui se implementaran las interacciones principales de la pagina
+ */
