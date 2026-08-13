@@ -4,6 +4,8 @@
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
+
 :root {
   --color-letras-header: #ffffff; 
 }
@@ -26,15 +28,14 @@ body {
 }
 
 .titulo-principal {
-  font-size: 42px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom:10px;
+  font-family:"Saira", sans-serif ;
 }
 
 .subtitulo {
-  text-transform: capitalize;
-  font-size: 18px;
-  margin-bottom: 28px;
+  font-size: 30px;
+  margin-bottom: 30px;
   color: #3e0244;
 }
 .menu {
@@ -51,6 +52,8 @@ body {
   color: var(--color-letras-header);
   background-color: #74038e;
   transition: background-color 0.3s ease;
+  width: 200px;
+  text-align: center;
 }
 .menu-link:hover {
   background-color: #c830f6;
@@ -59,11 +62,12 @@ body {
 /* MATRIZ DE 3 COLUMNAS (ESCRITORIO) */
 .contenedor {
   display: grid;
-  grid-template-areas: 'imagen caja1 caja2'
-                        'imagen caja3 caja4'
-                        'formulario caja7 caja8'
-                        'caja9 caja9 caja9';
-  grid-template-rows: auto auto auto auto;
+  grid-template-areas: 'caja1 caja2 caja3'
+                        'caja1 caja4 caja5'
+                        'caja1 caja6 caja7'
+                        'caja8 caja9 caja9'
+                        'caja8 caja9 caja9';
+  grid-template-rows: auto auto auto auto auto;
   grid-template-columns: 4fr 3fr 3fr;                   
   gap: 15px;
 }
@@ -82,34 +86,15 @@ body {
 }
 
 
-.caja-1 {
-  grid-area: imagen;
-}
-.caja-2 {
-  grid-area: caja1;
-}
-.caja-3 {
-  grid-area: caja2;
-}
-.caja-4 {
-  grid-area: caja3;
-}
-.caja-5 {
-  grid-area: caja4;
-}
-.caja-6 {
-  grid-area: formulario;
-}
-.caja-7 {
-  grid-area: caja7;
-}
-.caja-8 {
-  grid-area: caja8;
-}
-.caja-9 {
-  grid-area: caja9;
-  
-}
+.caja-1 { grid-area: caja1;}
+.caja-2 { grid-area: caja2;}
+.caja-3 { grid-area: caja3;}
+.caja-4 { grid-area: caja4;}
+.caja-5 { grid-area: caja5;}
+.caja-6 { grid-area: caja6;}
+.caja-7 { grid-area: caja7;}
+.caja-8 { grid-area: caja8;}
+.caja-9 { grid-area: caja9;}
 
 .body-imagen {
   padding: 10px;
