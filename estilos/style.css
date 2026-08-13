@@ -34,17 +34,6 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 } 
 
-}
-
-.body h2 {
-  font-size: 1.0rem;
-  color: #10b981;
-}
-.body small {
-  color: #94a3b8;
-  font-size: 0.7rem;
-}
-
 .titulo-principal {
   font-size: 50px;
   margin-bottom:5px;
@@ -97,7 +86,7 @@ body {
   /*box-shadow: 0 0 15px rgba(0,0,0,0.1-0.3);*/
 }
 .caja {
-  background-color: #ffffff;
+  background-color: #fddef6;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
