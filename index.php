@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilos/style.css">
-    <link rel="stylesheet" type="text/css" href="/estilos/style-formulario.css">   
+    <link rel="stylesheet" type="text/css" href="estilos/style-formulario.css">   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Gelasio:ital,wght@0,400..700;1,400..700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
     <div class="caja caja-1">
       <div class="header header-cajas">IMAGEN LOGO</div>
       <div class="body body-imagen">
-        <img src="/imagenes/yo.png" alt="yo">
+        <img src="imagenes/yo.png" alt="yo">
       </div>
 
     </div>
@@ -106,7 +106,8 @@
     </footer>
 
   </div>
-<script src="/Intereracciones/script.js"> </script>
-<script scr=""></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="interacciones/script.js"></script>
+
 </body>
 </html>
