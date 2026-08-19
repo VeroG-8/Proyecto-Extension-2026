@@ -1,19 +1,19 @@
 
-<form class="formulario" id="form" action="enviar.php" method="POST">
+<form class="formulario" id="form">
     <div class="header header-cajas titulo">CONSULTAS</div>
     <div class="campo">
       <label for="nombre">Nombre</label>
-      <input type="text" id="nombre" placeholder="Tu nombre">
+      <input type="text" id="name" name="name" placeholder="Tu nombre">
     </div>
 
     <div class="campo">
       <label for="apellido">Apellido</label>
-      <input type="text" id="apellido" placeholder="Tu apellido">
+      <input type="text" id="apellido" name="surname" placeholder="Tu apellido">
     </div>
 
     <div class="campo">
       <label for="email">Email</label>
-      <input type="email" id="email" placeholder="correo@ejemplo.com">
+      <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
     </div>
 
     <div class="campo">
@@ -23,7 +23,7 @@
 
     <div class="campo campo-completo">
       <label for="mensaje">Mensaje</label>
-      <textarea id="mensaje" placeholder="Escribe tu consulta aquí..."></textarea>
+      <textarea name="message" id="mensaje" placeholder="Escribe tu consulta aquí..."></textarea>
     </div>
 
     <button type="submit" id="btn-submit">Enviar</button>
