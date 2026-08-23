@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
   color: #ffffff;
 }
@@ -81,10 +81,12 @@ body {
   grid-template-columns: 4fr 3fr 3fr;                   
   gap: 15px;
 }
+
 .caja:hover {
   transform: translateY(-5px);
   /*box-shadow: 0 0 15px rgba(0,0,0,0.1-0.3);*/
 }
+
 .caja {
   background-color: #fddef6;
   border-radius: 8px;
@@ -109,6 +111,7 @@ body {
 .body-imagen {
   padding: 10px;
   max-width: 100%;
+  height: auto;
   overflow: visible;
 }
 
@@ -119,4 +122,54 @@ body {
   border-radius: 6px;
   margin: 0 auto;
   object-fit: contain;
+}
+/*Responsive mobil*/
+
+
+@media (max-width: 768px) {
+  body {
+        padding: 15px;
+        align-items: stretch;
+  }
+  .contenedor {
+      width: 100%;
+      grid-template-areas:
+            "caja1"
+            "caja2"
+            "caja3"
+            "caja4"
+            "caja5"
+            "caja6"
+            "caja7"
+            "caja8"
+            "caja9";
+
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+
+        gap: 15px;
+  }
+  
+    .titulo-principal {
+        font-size: 28px;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+    }
+
+    .menu {
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .menu-link {
+        width: 100%;
+        text-align: center;
+    }
+    .body-imagen img {
+        max-width: 100%;
+        height: auto;
+    }
 }

@@ -1,4 +1,5 @@
 // 1. REEMPLAZA CON TU PUBLIC KEY
+
 emailjs.init("sxV2pmb4K14COv_Zp");
 
 const form = document.getElementById('form');

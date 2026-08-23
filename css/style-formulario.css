@@ -13,6 +13,15 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+.campo input,
+.campo textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 0.95rem;
+}
 
 .titulo {
   grid-column: 1 / 3;
@@ -26,21 +35,9 @@
 }
 
 .campo label {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: bold;
   color: #334155;
-}
-
-.campo input, .campo textarea {
-  padding: 10px;
-  border: 1px solid #cbd5e1;
-  border-radius: 5px;
-  font-size: 0.95rem;
-}
-
-.campo textarea {
-  height: 100px;
-  resize: vertical;
 }
 
 .campo-completo {
@@ -62,3 +59,16 @@ button {
 button:hover {
   background-color:#c830f6;
 }
+
+@media (max-width: 768px) {
+
+    .formulario {
+        grid-template-columns: 1fr;
+    }
+
+    .titulo,
+    .campo-completo,
+    .formulario button {
+        grid-column: 1;
+    }
+  }
