@@ -39,21 +39,21 @@
 
     <!-- Fila 1 -->
 
-    <div class="caja caja-1">
+    <div class="caja caja-1 animar-scroll">
       <div class="header header-cajas">IMAGEN LOGO</div>
       <div class="body body-imagen">
         <img src="img/logo.png" alt="yo">
       </div>
 
     </div>
-     <div class="caja caja-2">
+     <div class="caja caja-2 animar-scroll">
       <div class="header header-cajas">SOBRE MI</div>
       <div class="body">
        
       </div>
     </div>
 
-     <div class="caja caja-3">
+     <div class="caja caja-3 animar-scroll">
       <div class="header header-cajas">EDUCACIÓN</div>
       <div class="body">
         
@@ -61,14 +61,14 @@
     <!-- Fila 2 -->
 
     </div>
-     <div class="caja caja-4">
+     <div class="caja caja-4 animar-scroll">
       <div class="header header-cajas">EXPERIENCIAS</div>
       <div class="body">
        
       </div>
 
     </div>
-     <div class="caja caja-5">
+     <div class="caja caja-5 animar-scroll">
       <div class="header header-cajas">HABILIDADES</div>
       <div class="body">
        
@@ -78,27 +78,27 @@
 
     <!-- Fila 3 -->
 
-    <div class="caja caja-6">
+    <div class="caja caja-6 animar-scroll">
       <div class="header header-cajas">HERRAMIENTAS</div>
       <div class="body">
        
       </div>
     </div>
 
-    <div class="caja caja-7">
+    <div class="caja caja-7 animar-scroll">
       <div class="header header-cajas">INTERESES</div>
       <div class="body">
        
       </div>
     </div>
 
-    <section class="caja caja-8">
+    <section class="caja caja-8 animar-scroll">
       <?php include 'formulario.php'; ?>
     </section>
 
     <!-- Fila 4 -->
 
-    <footer class="caja caja-9" id="contacto">
+    <footer class="caja caja-9 animar-scroll id="contacto">
       <div class="header header-cajas">CONTACTOS</div>
       <div class="body body-imagen">
         

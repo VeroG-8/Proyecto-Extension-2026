@@ -82,10 +82,12 @@ body {
   gap: 15px;
 }
 
+/*
+
 .caja:hover {
   transform: translateY(-5px);
-  /*box-shadow: 0 0 15px rgba(0,0,0,0.1-0.3);*/
-}
+  /*box-shadow: 0 0 15px rgba(0,0,0,0.1-0.3);
+}*/
 
 .caja {
   background-color: #fddef6;
@@ -123,6 +125,20 @@ body {
   margin: 0 auto;
   object-fit: contain;
 }
+
+/*Estilo para crear efecto de aparicion en las cajas */
+
+.animar-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animar-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /*Responsive mobil*/
 
 
