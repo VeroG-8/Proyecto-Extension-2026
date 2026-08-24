@@ -47,3 +47,42 @@ const observer = new IntersectionObserver((entradas) => {
 elementos.forEach((elemento) => {
     observer.observe(elemento);
 });
+
+/*Efecto carrusel en las imagenes de presentacion*/
+
+
+const imagenes = [
+    "img/yo.png",
+    "img/yoo.png",
+    "img/yooo.png"
+];
+
+const imagenCarrusel = document.getElementById("img-carrusel");
+
+let indice = 0;
+
+function cambiarImagen() {
+
+    // Desaparece suavemente
+    imagenCarrusel.style.opacity = "0";
+
+    setTimeout(() => {
+
+        // Cambiamos el índice
+        indice++;
+
+        if (indice >= imagenes.length) {
+            indice = 0;
+        }
+
+        // Cambiamos la imagen
+        imagenCarrusel.src = imagenes[indice];
+
+        // Volvemos a mostrarla
+        imagenCarrusel.style.opacity = "1";
+
+    }, 100);
+}
+
+// Cambia cada 10 segundos
+setInterval(cambiarImagen, 5000);

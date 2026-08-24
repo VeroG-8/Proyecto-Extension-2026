@@ -1,0 +1,17 @@
+.carrusel {
+    width: 100%;
+    height: 300px; /* altura de referencia */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carrusel img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 1;
+    display: block;
+    transition: opacity 0.5s ease-in-out;
+}
