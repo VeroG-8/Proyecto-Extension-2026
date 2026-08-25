@@ -72,6 +72,13 @@ p {
 .menu-link:hover {
   background-color: #c830f6;
 }
+.inicio {
+  text-align:end;
+  color: #74038e;
+  font-size: 20px;
+  grid-column: 3 / 4;
+
+}
 
 /* MATRIZ DE 3 COLUMNAS (ESCRITORIO) */
 .contenedor {

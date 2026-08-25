@@ -14,7 +14,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
 
       <h1 class="titulo-principal">Verónica Anahí Guaymás</h1>
 
@@ -24,7 +24,7 @@
 
      <nav class="menu">
 
-        <a class="menu-link" href="#contenedor">Inicio</a>
+        <a class="menu-link" href="#header">Inicio</a>
 
         <a class="menu-link" href="#sobre-mi">Sobre mi</a>
 
@@ -124,6 +124,8 @@
         >⬇ Descargar CV</a>
       </div>
     </footer>
+
+<a class="inicio" href="#header">Inicio</a>
 
   </div>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
