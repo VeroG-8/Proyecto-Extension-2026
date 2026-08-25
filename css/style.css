@@ -66,7 +66,7 @@ p {
   color: var(--color-letras-header);
   background-color: #74038e;
   transition: background-color 0.3s ease;
-  width: 200px;
+  width: 120px;
   text-align: center;
 }
 .menu-link:hover {

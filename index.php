@@ -26,11 +26,17 @@
 
         <a class="menu-link" href="#contenedor">Inicio</a>
 
-        <a class="menu-link" href="#sobre-mi">OP 1</a>
+        <a class="menu-link" href="#sobre-mi">Sobre mi</a>
 
-        <a class="menu-link" href="#proyectos">OP 2</a>
+        <a class="menu-link" href="#educacion">Educación</a>
 
-        <a class="menu-link" href="#habilidades">OP 3</a>
+        <a class="menu-link" href="#experiencias">Experiencias</a>
+
+        <a class="menu-link" href="#habilidades">Habilidades</a>
+
+        <a class="menu-link" href="#herramientas">Herramientas</a>
+
+         <a class="menu-link" href="#intereses">Intereses</a>
 
         <a class="menu-link" href="#contacto">Contacto</a>
 
@@ -50,14 +56,14 @@
         
 
     </div>
-     <div class="caja caja-2 animar-scroll">
+     <div class="caja caja-2 animar-scroll" id="sobre-mi">
       <div class="header header-cajas">SOBRE MI</div>
       <div class="body">
        
       </div>
     </div>
 
-     <div class="caja caja-3 animar-scroll">
+     <div class="caja caja-3 animar-scroll" id="educacion">
       <div class="header header-cajas">EDUCACIÓN</div>
       <div class="body">
         
@@ -65,14 +71,14 @@
     <!-- Fila 2 -->
 
     </div>
-     <div class="caja caja-4 animar-scroll">
+     <div class="caja caja-4 animar-scroll" id="experiencias">
       <div class="header header-cajas">EXPERIENCIAS</div>
       <div class="body">
        
       </div>
 
     </div>
-     <div class="caja caja-5 animar-scroll">
+     <div class="caja caja-5 animar-scroll" id="habilidades">
       <div class="header header-cajas">HABILIDADES</div>
       <div class="body">
        
@@ -82,14 +88,14 @@
 
     <!-- Fila 3 -->
 
-    <div class="caja caja-6 animar-scroll">
+    <div class="caja caja-6 animar-scroll" id="herramientas">
       <div class="header header-cajas">HERRAMIENTAS</div>
       <div class="body">
        
       </div>
     </div>
 
-    <div class="caja caja-7 animar-scroll">
+    <div class="caja caja-7 animar-scroll" id="intereses">
       <div class="header header-cajas">INTERESES</div>
       <div class="body">
        
