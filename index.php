@@ -32,7 +32,7 @@
 
         <a class="menu-link" href="#experiencias">Experiencias</a>
 
-        <a class="menu-link" href="#habilidades">Habilidades</a>
+        <a class="menu-link" href="#comp-tecnicas">Habilidades</a>
 
         <a class="menu-link" href="#herramientas">Herramientas</a>
 
@@ -59,14 +59,29 @@
      <div class="caja caja-2 animar-scroll" id="sobre-mi">
       <div class="header header-cajas">SOBRE MI</div>
       <div class="body">
-       
+       <p class="parrafo-cv">
+        Soy Técnica Electrónica y estudiante avanzada de la Tecnicatura Universitaria
+         en Programación, con formación en electrónica, desarrollo de software y tecnologías
+          informáticas. Cuento con experiencia práctica en soporte técnico, páginas web, 
+          software y configuración de equipos. Me caracterizo por mi capacidad de aprendizaje, 
+          resolución de problemas, predisposición y trabajo colaborativo, con especial interés
+           en mantenimiento y desarrollo de software y gestión de entornos tecnológicos.
+       </p>
       </div>
     </div>
 
      <div class="caja caja-3 animar-scroll" id="educacion">
       <div class="header header-cajas">EDUCACIÓN</div>
       <div class="body">
-        
+        <p class="parrafo-cv">
+          <strong>Universidad nacional de salta</strong> <br>
+          2018-2026 <br>
+          Estudiante avanzada en la Tecnicatura en Programación | 83,33 % de avance <br>
+          <br><strong>E.E.T. N°3.138- Alberto Einstein</strong><br>
+          2005-2010 <br>
+          • Título de Técnica Electrónica. <br>
+          • Título de Bachiller con Orientación en Producción de Bienes y Servicios.
+        </p>
       </div>
     <!-- Fila 2 -->
 
@@ -74,31 +89,60 @@
      <div class="caja caja-4 animar-scroll" id="experiencias">
       <div class="header header-cajas">EXPERIENCIAS</div>
       <div class="body">
-       
+       <p class="parrafo-cv">
+        <strong>Pasantía en Tecnologías de la información y comunicación (TIC)</strong> <br>
+        Rectorado – U.N.Sa | Marzo 2024 – Febrero 2025 <br>
+        Soporte y configuración de entornos de desarrollo para sitios web institucionales. 
+        Instalación, configuración y actualización de sistemas operativos, herramientas de ofimática, 
+        software y aplicaciones de uso laboral. Configuración de impresoras y periféricos, mantenimiento 
+        preventivo básico de equipos y armado de cableado de red. Instalación y conexión de equipamiento 
+        para transmisiones en vivo, brindando asistencia técnica durante su realización.<br>
+        <br><strong>Secretaria administrativa| gestión y mantenimiento web </strong><br>
+        A.P.A.S. Salta | Septiembre 2018 - Marzo 2023
+        <br>Secretaria Administrativa - Gestión y mantenimiento del Sitio Web y Redes sociales – Atención al público en la Asociación de Productores Asesores de Seguros de Salta
+       </p>
       </div>
 
     </div>
-     <div class="caja caja-5 animar-scroll" id="habilidades">
-      <div class="header header-cajas">HABILIDADES</div>
+     <div class="caja caja-5 animar-scroll" id="comp-profesionales">
+      <div class="header header-cajas">COMPETENCIAS PROFESIONALES</div>
       <div class="body">
-       
+       <p class="parrafo-cv">
+
+        • Empatía y comunicación efectiva.<br>
+        • Trabajo colaborativo.<br>
+        • Predisposición y proactividad.<br>
+        • Capacidad de aprendizaje y adaptación.<br>
+        • Resolución de problemas.<br>
+        • Responsabilidad y compromiso.
+       </p>
         
       </div>
     </div>
 
     <!-- Fila 3 -->
 
-    <div class="caja caja-6 animar-scroll" id="herramientas">
-      <div class="header header-cajas">HERRAMIENTAS</div>
+    <div class="caja caja-6 animar-scroll" id="comp-tecnicas">
+      <div class="header header-cajas">COMPETENCIAS TÉCNICAS</div>
       <div class="body">
-       
+       <p class="parrafo-cv">
+        • Soporte y mantenimiento: tecnologías informáticas y electrónicas · instalación y configuración de software · redes<br>
+        • Desarrollo: PHP · JavaScript · HTML · CSS · Laravel<br>
+        • Bases de datos: MySQL<br>
+        • Herramientas: Git · GitHub · Composer · npm<br>
+        • Entornos: Linux · XAMPP
+       </p>
       </div>
     </div>
 
     <div class="caja caja-7 animar-scroll" id="intereses">
       <div class="header header-cajas">INTERESES</div>
       <div class="body">
-       
+       <p class="parrafo-cv">
+        • Docencia y acompañamiento académico: clases particulares de materias técnicas.<br>
+        • Natación. Actividades al aire libre.<br>
+        • Arte en madera.
+       </p>
       </div>
     </div>
 
@@ -111,7 +155,7 @@
     <footer class="caja caja-9 animar-scroll" id="contacto">
       <div class="header header-cajas">CONTACTOS</div>
       <div class="body">
-        <p> 
+        <p class="texto-footer"> 
             © 2026 Verónica Anahí Guaymás <br>
             Tel: (0387) 154025203 <br>
             E-mail: verogdevs@gmail.com <br>
