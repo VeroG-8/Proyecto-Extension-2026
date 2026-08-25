@@ -145,6 +145,7 @@ p {
 .btn-cv {
     display: inline-block;
     padding: 12px 20px;
+    margin: 20px;
 
     background-color: #74038e;
     color: #ffffff;
