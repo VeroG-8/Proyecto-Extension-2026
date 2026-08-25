@@ -24,8 +24,8 @@ El sitio cuenta con un diseño responsive que permite adaptar el contenido a dif
 - Menu de navegación.
 - Secciones de presentacion personal.
 - Galeria contenido personal.
-- GAleria/ contenido visual.
-- Formulario de contato
+- Galeria/ contenido visual.
+- Formulario de contacto
 - Envio mensajes mediante EmailJS.
 - Animaciones e interacciones con JavaScript
 - Diseño realizado con CSS Grid y Flexbox.
