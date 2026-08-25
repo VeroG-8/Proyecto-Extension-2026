@@ -126,6 +126,7 @@ body {
 .caja-7 { grid-area: caja7;}
 .caja-8 { grid-area: caja8;}
 .caja-9 { grid-area: caja9;}
+.caja-10 {grid-area: caja10;}
 
 .body-imagen {
   padding: 10px;
@@ -195,7 +196,8 @@ body {
             "caja6"
             "caja7"
             "caja8"
-            "caja9";
+            "caja9"
+            "caja10";
 
       grid-template-columns: 1fr;
       grid-template-rows: auto;
@@ -225,4 +227,5 @@ body {
         max-width: 100%;
         height: auto;
     }
+  
 }
