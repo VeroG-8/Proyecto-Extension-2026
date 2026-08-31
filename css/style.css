@@ -59,25 +59,26 @@ body {
   
 }
 .menu {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
-.menu-link {
-  text-decoration: none;
-  border-radius: 10px;
-  padding: 8px 14px;
-  color: var(--color-letras-header);
-  background-color: #74038e;
-  transition: background-color 0.3s ease;
-  width: 120px;
-  text-align: center;
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-toggle {
+    display: none;
 }
 .menu-link:hover {
   background-color: #c830f6;
 }
+
+
 .inicio {
   text-align:end;
   color: #74038e;
@@ -213,16 +214,43 @@ body {
         font-size: 16px;
     }
 
-    .menu {
-        width: 100%;
-        flex-direction: column;
-        gap: 8px;
+   .menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    }
+   .menu-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    margin-top: 8px;
     }
 
-    .menu-link {
-        width: 100%;
-        text-align: center;
+  .menu-links.activo {
+    display: flex;
+  }
+
+  .menu-link {
+    min-width: 150px;
+    text-align:end;
+  }
+   
+    .menu-toggle {
+    display: block;
+    width: auto;
+    padding: 6px 10px;
+    font-size: 20px;
+    align-self: flex-end;
+    background-color: #74038e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
     }
+
     .body-imagen img {
         max-width: 100%;
         height: auto;

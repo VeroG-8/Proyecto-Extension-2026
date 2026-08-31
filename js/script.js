@@ -86,3 +86,12 @@ function cambiarImagen() {
 
 // Cambia cada 10 segundos
 setInterval(cambiarImagen, 5000);
+
+// accion para el menu-link
+
+const menuToggle = document.getElementById("menu-toggle");
+const menuLinks = document.getElementById("menu-links");
+
+menuToggle.addEventListener("click", () => {
+    menuLinks.classList.toggle("activo");
+});
