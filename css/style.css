@@ -60,16 +60,28 @@ body {
 }
 .menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     margin-bottom: 10px;
-}
+  }
+.menu-link {
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 8px 14px;
+    color: var(--color-letras-header);
+    width: 120px;
+    text-align: center;
+    background-color:#74038e;
+    transition: background-color 0.3s ease;
+    gap: 15px;
+  }
 
 .menu-links {
     display: flex;
     justify-content: center;
     gap: 10px;
-}
+  }
 
 .menu-toggle {
     display: none;
