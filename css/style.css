@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #fe91ec;
+  background: linear-gradient(135deg, #fe91ec, #d98cff, #a6c1ee);
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -120,6 +120,7 @@ body {
 }*/
 
 .caja {
+  
   background-color: #fddef6;
   border-radius: 8px;
   display: flex;
